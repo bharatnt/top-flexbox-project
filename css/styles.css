@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.hero, .random-info-section, .quote-section{
+.hero, .random-info-section, .quote-section, .cta-section-wrapper{
     max-width: 1200px;
     margin: auto;
 }
@@ -143,6 +143,10 @@ button{
 
 
 /* CTA Section */
+.cta-section-wrapper{
+    padding: 70px;
+}
+
 .cta-section{
     display: flex;
     background-color:#3882f6;
@@ -150,6 +154,7 @@ button{
     justify-content: space-evenly;
     align-items: center;
     color: #fff;
+    border-radius: 5px;
 }
 
 h3{
