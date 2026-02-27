@@ -1,3 +1,170 @@
-h1{
-    color: aqua;
+/* Applied to whole page */
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hero, .random-info-section, .quote-section{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Hero */
+.hero-wrapper{
+    background: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+#logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#logo a{
+    color: #f9faf8;
+}
+
+.header-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-nav a, .hero-content p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    gap: 100px;
+}
+
+.hero-content-left {
+    flex: 1;
+}
+
+.hero-main-image {
+    flex: 1;
+}
+
+h1{ 
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 20px 0px;
+}
+
+.hero-content p{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* Random Info Section */
+
+.random-info-section{
+    padding: 50px 0 100px 0;
+}
+
+.random-info-section h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.info-box-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box{
+    width: 150px;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info-box p{
+    text-align: center;
+}
+
+/* Quote Section */
+
+.quote-section-wrapper{
+    background-color: #e5e7eb;
+}
+
+.quote-section{
+    padding: 100px;
+}
+
+#quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+#citation{
+    text-align: end;
+    padding-right: 50px;
+}
+
+
+/* CTA Section */
+.cta-section{
+    display: flex;
+    background-color:#3882f6;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+h3{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.cta-button button{
+    border: 2px solid #fff;   
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 30px;
+    background: #1f2937;
+    color: #fff;
 }
